@@ -2,9 +2,9 @@
 
 Draft for the developer to complete before hosting. Replace the bracketed fields with the developer’s verified information before hosting.
 
-Effective date · [release date]
+Effective date · Wed 25 Nov 2026
 
-CaveBuddy is provided by [developer or business name]. For privacy questions or to request deletion of a report, contact [public privacy contact email].
+CaveBuddy is provided by Arkan Studio. For privacy questions or to request deletion of a report, contact arkan.game.studio@gmail.com
 
 ## Chats and model download
 
