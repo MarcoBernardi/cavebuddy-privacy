@@ -1,78 +1,25 @@
-# Privacy Policy — CaveBuddy
+# CaveBuddy privacy policy
 
-**Last updated: November 23, 2026**
+Draft for the developer to complete before hosting. Replace the bracketed fields with the developer’s verified information before hosting.
 
-CaveBuddy is an AI-powered entertainment application that allows users to interact with a virtual caveman character.
+Effective date · [release date]
 
-We are committed to protecting user privacy and providing transparency about how the application processes information.
+CaveBuddy is provided by [developer or business name]. For privacy questions or to request deletion of a report, contact [public privacy contact email].
 
-### 1. Information Collection
+## Chats and model download
 
-CaveBuddy's current version does not collect or transmit personal information to the developer or external servers.
+CaveBuddy uses an AI model on your device to generate replies. The app uses the text you enter and recent chat messages to answer. It keeps the conversation in memory for the current session. When you start a new chat or the app process closes, the app clears the session. Generating replies does not send your text to a server. The app does not require an account.
 
-The application does not require account registration or access to personal identification information.
+In the language learning preview, words, aliases, concepts, definitions, learned concept links, practice, XP, abilities, and personality scores are stored privately on the device across sessions. CaveBuddy analyzes potential lessons and uses the bundled dictionary on the device. CaveBuddy keeps a limited set of hashes of recognized interactions to limit repeated personality changes. Starting a new chat leaves that progress in place. Resetting the character, clearing app data, or uninstalling clears the progress.
 
-### 2. Artificial Intelligence and Conversations
+On model setup, the app connects to Hugging Face over Wi-Fi or mobile data to download the model after you approve it. The download service receives ordinary connection information such as your IP address and the requested file. It receives no chat text through the download. The model is stored in the app's private storage and can be removed by clearing app data or uninstalling. Hugging Face's handling of connection information is described in its own privacy policy (https://huggingface.co/privacy).
 
-CaveBuddy uses an artificial intelligence language model that runs locally on the user's device.
+## Advertising
 
-All conversations are processed on-device. Messages are not sent to external AI providers or developer-operated servers.
+Android releases with ads enabled use Google AdMob while online. CaveBuddy requests non-personalized ads and applies Google's protections for users of unknown age. Google can receive information such as your IP address, ad interactions, diagnostics, and supported device identifiers for ad delivery, measurement, and fraud prevention. CaveBuddy removes the Android advertising ID permission and does not send chat messages or learned vocabulary to AdMob. The app stores the last video ad time on your device to limit how often a video can appear. If Google makes privacy options available for your region, you can open them from the app. Google's advertising privacy information (https://policies.google.com/technologies/ads)
 
-The application maintains a limited conversation history of up to five recent exchanges to preserve conversational context.
+## Reports
 
-Conversation history is handled locally and is not transmitted to external services.
+If you confirm a reply report, CaveBuddy sends the selected reply and its report category over HTTPS to a Cloudflare Worker so the developer can review it and improve moderation. The report does not include your chat history. The selected reply may contain information mentioned in your conversation.
 
-### 3. Local Data Storage
-
-CaveBuddy may store application preferences and conversational information locally on the user's device.
-
-Such information is used exclusively to provide application functionality and improve the continuity of interactions.
-
-Users can remove locally stored application data through their device's application settings.
-
-### 4. Advertising and Monetization
-
-The current version of CaveBuddy does  display advertisements and integrate advertising SDKs.
-
- They include banner ads, interstitial ads, or other advertising formats, to support application development.
-
-For the nature of how ads work, Google AdMob, may process certain information, including device identifiers, advertising identifiers, approximate location derived from network information, and advertising interaction data, subject to applicable law and the services actually implemented.
-
-
-This Privacy Policy and relevant application disclosures will be reviewed and updated as required when advertising features are introduced.
-
-### 5. Third-Party Services
-
-The current version of CaveBuddy does not integrate third-party advertising, analytics, or tracking services.
-
-Future versions may use third-party services for advertising or application functionality. Their data processing practices will be disclosed when applicable.
-
-### 6. Data Security
-
-CaveBuddy processes AI conversations locally on the user's device.
-
-The developer does not operate servers that receive or store conversation messages.
-
-Users are responsible for maintaining appropriate security measures on their devices.
-
-### 7. Children's Privacy
-
-CaveBuddy is not specifically directed toward children.
-
-The current version does not knowingly collect personal information from children.
-
-If future features involve additional data processing, applicable children's privacy requirements will be considered.
-
-### 8. Changes to This Privacy Policy
-
-We may update this Privacy Policy to reflect changes in application functionality, advertising services, applicable regulations, or data processing practices.
-
-Any changes will be published on this page with an updated revision date.
-
-### 9. Contact Information
-
-For questions regarding this Privacy Policy, please contact:
-
-**Developer:** [Your developer name]
-
-**Email:** [Your developer contact email]
+The service records the selected reply, category, and submission time in a private Cloudflare D1 database restricted to the EU. It uses the connecting IP address for rate limiting and does not include the address in the report record. A daily cleanup deletes records older than 30 days from the live database. Cloudflare may retain backups under its own backup schedule. To request deletion of an individual report, contact the developer using the privacy address above and include enough information for the developer to locate the report.
