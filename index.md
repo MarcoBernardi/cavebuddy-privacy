@@ -36,7 +36,7 @@ The current version of CaveBuddy does  display advertisements and integrate adve
 
  They include banner ads, interstitial ads, or other advertising formats, to support application development.
 
-For the nature of how ads word, Google AdMob, may process certain information, including device identifiers, advertising identifiers, approximate location derived from network information, and advertising interaction data, subject to applicable law and the services actually implemented.
+For the nature of how ads work, Google AdMob, may process certain information, including device identifiers, advertising identifiers, approximate location derived from network information, and advertising interaction data, subject to applicable law and the services actually implemented.
 
 
 This Privacy Policy and relevant application disclosures will be reviewed and updated as required when advertising features are introduced.
