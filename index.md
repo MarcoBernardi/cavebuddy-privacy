@@ -1,7 +1,5 @@
 # CaveBuddy privacy policy
 
-Draft for the developer to complete before hosting. Replace the bracketed fields with the developer’s verified information before hosting.
-
 Effective date · Wed 25 Nov 2026
 
 CaveBuddy is provided by Arkan Studio. For privacy questions or to request deletion of a report, contact arkan.game.studio@gmail.com
