@@ -32,13 +32,12 @@ Users can remove locally stored application data through their device's applicat
 
 ### 4. Advertising and Monetization
 
-The current version of CaveBuddy does not display advertisements or integrate advertising SDKs.
+The current version of CaveBuddy does  display advertisements and integrate advertising SDKs.
 
-Future versions may introduce advertisements, including banner ads, interstitial ads, or other advertising formats, to support application development.
+ They include banner ads, interstitial ads, or other advertising formats, to support application development.
 
-If advertising is introduced, third-party advertising partners, such as Google AdMob, may process certain information, including device identifiers, advertising identifiers, approximate location derived from network information, and advertising interaction data, subject to applicable law and the services actually implemented.
+For the nature of how ads word, Google AdMob, may process certain information, including device identifiers, advertising identifiers, approximate location derived from network information, and advertising interaction data, subject to applicable law and the services actually implemented.
 
-Any future advertising implementation will be subject to applicable privacy requirements, including consent requirements where necessary.
 
 This Privacy Policy and relevant application disclosures will be reviewed and updated as required when advertising features are introduced.
 
